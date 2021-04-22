@@ -1,0 +1,41 @@
+.footer {
+    background-color: cl(primary);
+    &__nav {
+        padding-top: 62px;
+        @include mq(s) {
+            padding-top: 33px;
+        };
+    }
+    &__img-wrapper {
+        margin-top: 62px;
+        @include mq(s) {
+            margin-top: 82px;
+        };
+    }
+    &__img {
+        width: 188px;
+        height: 70px;
+    }
+    &__copyright {
+        margin-top: 20px;
+        padding-bottom: 42px;
+        @include mq(s) {
+            padding-bottom: 38px;
+        };
+    }
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    &__item {
+        font-size: 1.6rem;
+        margin-right: 50px;
+        @include mq() {
+            margin-right: 47px;
+        };
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

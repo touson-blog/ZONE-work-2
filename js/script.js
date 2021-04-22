@@ -30,3 +30,6 @@ $('.faq-list__title').on('click', function () {
     $(this).next().toggleClass('active');
     $(this).next().slideToggle();
 });
+
+// スムーススクロール
+new WOW().init();

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="animate.css-main/animate.css">
     <link rel="stylesheet" href="slick/slick-theme.css" type="text/css">
     <link rel="stylesheet" href="slick/slick.css" type="text/css">
     <link rel="stylesheet" href="./css/reset.css">
@@ -49,7 +50,7 @@
             <h2 class="title features__title">本館の特徴</h2>
             <p class="sub-title features__sub-title">Features</p>
             <div class="media-wrapper">
-                <div class="media">
+                <div class="media wow animate__animated animate__fadeInLeft">
                     <figure class="media__img-wrapper">
                         <img src="./image/feature-item01.png" alt="" class="media__img">
                     </figure>
@@ -71,7 +72,7 @@
                     <!-- /.media__body -->
                 </div>
                 <!-- /.media -->
-                <div class="media media--reverse">
+                <div class="media media--reverse  wow animate__animated animate__fadeInRight">
                     <figure class="media__img-wrapper">
                         <img src="./image/feature-item02.png" alt="" class="media__img">
                     </figure>
@@ -92,7 +93,7 @@
                     <!-- /.media__body -->
                 </div>
                 <!-- /.media -->
-                <div class="media">
+                <div class="media wow animate__animated animate__fadeInLeft">
                     <figure class="media__img-wrapper">
                         <img src="./image/feature-item03.png" alt="" class="media__img">
                     </figure>
@@ -192,8 +193,8 @@
             </div>
 
             <div class="services-wrapper">
-                <div class="services services--col3">
-                    <div class="services__item service">
+                <div class="services services--col3 wow animate__animated animate__fadeInUp">
+                    <div class="services__item service  wow animate_animated animate__fadeInUp">
                         <figure class="service__img-wrapper">
                             <img class="service__img" src="./image/service-item01.png" alt="">
                         </figure>
@@ -233,7 +234,7 @@
             <h2 class="title blog__title">ブログ</h2>
             <p class="sub-title blog__sub-title">Blog</p>
             <div class="news">
-                <ul class="news-nav">
+                <ul class="news-nav wow animate__animated animate__fadeInUp">
                     <li class="news-nav__item">
                         <span class="news-nav__badge">お知らせ</span>
                         <p class="news-nav__text">2021年4月より、極楽亭の別館が開館します！こちらも予約を随時、受付けております。</p>
@@ -303,6 +304,10 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="slick/slick.js"></script>
+    <script src="WOW-master/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="./js/script.js"></script>
 </body>
 
